@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>welcome_text</key>
+        <value>DEFAULT MESSAGE</value>
+    </entry>
+    <entry>
+        <key>actual_version</key>
+        <value>0.0.0</value>
+    </entry>
+    <entry>
+        <key>actual_version_code</key>
+        <value>0</value>
+    </entry>
+</defaultsMap>

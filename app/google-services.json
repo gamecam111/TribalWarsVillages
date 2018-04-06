@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "986801082346",
+    "firebase_url": "https://tribalwarsvillages.firebaseio.com",
+    "project_id": "tribalwarsvillages",
+    "storage_bucket": "tribalwarsvillages.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986801082346:android:e4e6f3d8f9d2beef",
+        "android_client_info": {
+          "package_name": "eu.gamecam.tribalwarsvillages"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986801082346-5lr8fs6brarcor4vevmuior5dj3l4o1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.gamecam.tribalwarsvillages",
+            "certificate_hash": "eff4b722676417ea9c3ef7c1fced42c5c4307f0e"
+          }
+        },
+        {
+          "client_id": "986801082346-ri6gtole0ho3gg5986hhffrfgtimnutc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoECgWu758d-AsZIBfxdFswm-tP81GiHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986801082346-ri6gtole0ho3gg5986hhffrfgtimnutc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.gamecam.tribalwarsvillages">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service
+            android:name=".BackgroundService"
+            android:enabled="true"
+            android:launchMode="singleTop"/>
+
+        <activity android:name=".Menu"
+            android:persistent="true"
+            android:launchMode="singleInstance"/>
+
+        <activity android:name=".VillageList" />
+        <activity android:name=".Loggss" />
+        <activity android:name=".LoginAndRegister.Login">
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="b1ab4a2e2d9cb0840720eaf872dcd34f14e5d321" />
+
+        <activity android:name=".LoginAndRegister.PreExecute">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

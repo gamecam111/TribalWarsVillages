@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8b5825</color>
+    <color name="colorPrimaryDark">#8b5825</color>
+    <color name="colorAccent">#8b5825</color>
+    <color name="dk_background">#f2ddb2</color>
+    <color name="dk_background_dark">#8b5825</color>
+</resources>
